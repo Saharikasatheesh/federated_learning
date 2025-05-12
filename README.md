@@ -1,9 +1,11 @@
 FLAVA: Federated Learning Audio Voice Assistant for Privacy-Preserving Speech Recognition
 
 FLAVA (Federated Learning Audio Voice Assistant) is a cutting-edge, privacy-preserving speech recognition system that leverages federated learning to ensure that user data remains secure and private while enabling powerful voice-based interactions. Unlike traditional voice assistants, which transmit raw audio data to centralized servers, FLAVA performs voice recognition and model training directly on the user's device. This enables users to interact with voice assistants while maintaining control over their personal data.
+
 The core idea behind FLAVA is to decentralize the machine learning process. With federated learning, individual devices participate in training a shared model by sending only aggregated, encrypted updates rather than raw audio or user-specific data. This drastically reduces the risk of exposing sensitive information while still allowing the system to improve over time.
 
 KEY FEATURES
+
 Privacy-Preserving: No raw audio data leaves the user's device. Only aggregated model updates are shared, ensuring that speech patterns and personal interactions remain private.
 
 Federated Learning: A decentralized training method where devices collaboratively train the model without exchanging personal data.
@@ -15,7 +17,9 @@ Scalability: FLAVA can scale across millions of devices while ensuring that the 
 Ethical AI: Designed with privacy at its core, FLAVA enables ethical AI that respects user consent and autonomy.
 
 🛠️ TECHNOLOGIES AND KEYS USED:
+
 FLAVA combines various advanced technologies to ensure a robust, efficient, and privacy-respecting system. Here's a breakdown of the tools and frameworks used:
+
 Federated Learning: The key technology that powers privacy-preserving model updates by allowing decentralized training across devices.
 
 PyTorch: A flexible and powerful framework for building, training, and deploying machine learning models. PyTorch enables easy model experimentation and development.
@@ -35,6 +39,7 @@ Jupyter Notebooks: Ideal for experimentation and visualization, Jupyter Notebook
 YAML: A simple, human-readable language used for configuration files that manage system setups, model parameters, and experimental configurations.
 
 📊 HOW IT WORKS
+
 1. Data Collection & Preprocessing:
 Raw audio data is captured from users' devices and processed locally using libraries like Torchaudio and Librosa. This data is transformed into a series of features that are suitable for model training.
 
