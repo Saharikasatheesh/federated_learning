@@ -1,8 +1,10 @@
 FLAVA: Federated Learning Audio Voice Assistant for Privacy-Preserving Speech Recognition
 
-FLAVA (Federated Learning Audio Voice Assistant) is a cutting-edge, privacy-preserving speech recognition system that leverages federated learning to ensure that user data remains secure and private while enabling powerful voice-based interactions. Unlike traditional voice assistants, which transmit raw audio data to centralized servers, FLAVA performs voice recognition and model training directly on the user's device. This enables users to interact with voice assistants while maintaining control over their personal data.
+FLAVA (Federated Learning Audio Voice Assistant) is a cutting-edge, privacy-preserving speech recognition system, similar to popular voice assistants like Siri, Bixby, and Google Assistant, but with a primary focus on data privacy and security. Unlike traditional voice assistants, which transmit raw audio data to centralized servers, FLAVA performs voice recognition and model training directly on the user's device, ensuring that user data remains secure and private.
 
-The core idea behind FLAVA is to decentralize the machine learning process. With federated learning, individual devices participate in training a shared model by sending only aggregated, encrypted updates rather than raw audio or user-specific data. This drastically reduces the risk of exposing sensitive information while still allowing the system to improve over time.
+The core idea behind FLAVA is to decentralize the machine learning process using federated learning. Individual devices participate in training a shared model by sending only aggregated, encrypted updates, rather than raw audio or user-specific data. This drastically reduces the risk of exposing sensitive information while still allowing the system to improve over time.
+
+We've named our model Marvin, but you can easily customize the assistant's name to whatever you prefer, whether it’s Jarvis, Alexa, Athena, or any other name you choose. Customizing the name is simple and can be done in the configuration files, giving you full control to personalize the assistant however you want!
 
 KEY FEATURES
 
